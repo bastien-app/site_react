@@ -110,6 +110,74 @@ function Main(){
                     soit aussi agréable à regarder qu'à lire !
                 </p>
             </Section>
+
+            <Section id="projects" title="Projets et réalisations">
+                <h3>Projet Profan ISIMA</h3>
+                <p>
+                    Durant mon année d'étude à l'ISIMA, j'ai participé à un projet de groupe nommé Profan. Le but était de 
+                    réaliser différents projets en liens avec le pôle plurimédia du lycée Lafayette de Clermont-Ferrand. Le 
+                    projet confié à mon équipe consistait en un logiciel de Gestion de Production Assistée par Ordinateur 
+                    (GPAO) afin de faciliter la gestion des commandes passées auprès du lycée.
+                    J'ai eu donc l'opportunité de collaborer avec un élève de BTS et un élève en bac professionel. Grâce à 
+                    leurs explications et conseils, j'ai créé une base de données en SQL via phpMyAdmin, à partir d'un modèle 
+                    entité-association. Cette base permettait de gérer à la fois les commandes et les comptes utilisateurs de 
+                    l'application.
+                </p>
+                <a>→ Visionner la modélisation phpMyAdmin de la base de donnée</a>
+                <p>
+                    Mes coéquipiers ont défini le design du site et nous avions commencé à le mettre en place. Cependant, 
+                    nous n'avons malheureusement pas eu le temps de mener le projet à son terme. L'objectif pédagogique de 
+                    l'ISIMA était clair : nous faire apprendre les langages du web par la pratique, alors que nous ne les 
+                    avions pas encore étudiés auparavant. Il a donc fallu apprendre tout en concevant l'application. Cette 
+                    approche a été très formatrice, mais cela à eu pour conséquence qu'il n'était pas possible, pour un 
+                    unique développeur en cours d'apprentissage, de finir l'ensemble du site en trois mois, à raison d'une 
+                    seule matinée de travail par semaine (temps aloué au projet). Malgré cela, ce fut une expérience 
+                    enrichissante. Travailler au sein d'une équipe pluridisciplinaire m'a permis de développer des compétences 
+                    en communication, en pédagogie et en travail d'équipe.
+                    Apprendre à développer une application via un pratique concrete a été également très bénéfique. C'est une 
+                    des raisons pour laquelle je souhaite aujourd'hui terminer mon cursus informatique via une pratique 
+                    concrète dans un milieu professionnel.
+                    Bien que le projet n'ait pas pu être finalisé, il est possible de consulter le travail réalisé (code, base 
+                    de données, cahier des charges, rapport rédigé à trois) sur le dépôt GitHub suivant :
+                </p>
+                <a>→ Consulter les fichier du projet PROFAN</a>
+                
+                <h3>Site statique réalisé en HTML, CSS et JavaScript</h3>
+                <p>
+
+                </p>
+
+                <h3>Veille théorique et pratique</h3>
+                <p>À voir si on garde ce paragraphe</p>
+
+                <h3>Réalisation d'une application complète : site pour un photographe</h3>
+                <p>
+                    Un projet important que j'aimerais réaliser est un site pour un ami photographe. Il souhaite disposer d'un 
+                    espace en dehors des réseaux sociaux pour publier ses oeuvres. Avec un ami développeur web frontend, nous 
+                    nous sommes proposés de créer ce site. Le lien du site ainsi que mon rapport d'expérience seront affichés ici.
+                </p>
+
+                <h3>Mémoire de recherche sur l'intelligence artificielle</h3>
+                <p>
+                    Lors de mon master en philosophie, je me suis spécialisé en philosophie de l'esprit, un domaine qui s'interroge 
+                    sur la nature de la pensée humaine. Cette réflexion m'a conduit à explorer un modèle particulier de l'esprit, 
+                    défendu par les philosophes McDowell et Putnam, et connu sous le nom de naturalisme modéré.
+                    Partant de cette approche, je me suis posé une question simple mais ambitieuse : une intelligence artificielle 
+                    peut-elle reproduire un esprit humain ? Pour y répondre, j'ai analysé les deux grands types d'IA existants — 
+                    les IA symboliques et les IA connexionnistes — en examinant leur fonctionnement, leurs capacités, mais aussi leurs 
+                    limites fondamentales.
+                    Mon mémoire montre pourquoi, selon le modèle de l'esprit que j'étudie, les IA actuelles (et peut-être futures) sont 
+                    incapables de reproduire ce que nous appelons réellement « un esprit humain », à moins d'une condition qui, à ce jour, 
+                    semble irréalisable.
+                    Si ce sujet vous intrigue, vous pouvez lire ou parcourir mon mémoire en le téléchargeant ici :
+                    « Les IA rêveront-elles un jour de moutons électriques ? Putnam, McDowell et le projet d'une intelligence artificielle ».
+                </p>
+                <a>→ Télécharger le mémoire au format PDF</a>
+
+            </Section>
+            <Section id="contacts" title="Contacts">
+
+            </Section>
         </div>
             
         

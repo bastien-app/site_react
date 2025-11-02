@@ -19,9 +19,21 @@ function Menu({active, onSelect})
                         className={active === "school" ? "active" : ""}
                         onClick={() => onSelect("school")}
                     >
-                        L'école
+                        La formation
                     </a>
                     </li>
+
+                <li>
+                    <a
+                        href="#journey"
+                        className={active === "journey" ? "active" : ""}
+                        onClick={() => onSelect("journey")}
+                    
+                    >
+                        Parcours
+                    </a>
+                    </li>
+
 
                 <li>
                     <a
@@ -47,11 +59,11 @@ function Menu({active, onSelect})
                     
                 <li>
                     <a
-                        href="#contact"
-                        className={active === "contact" ? "active" : ""}
-                        onClick={() => onSelect("contact")}
+                        href="#contacts"
+                        className={active === "contacts" ? "active" : ""}
+                        onClick={() => onSelect("contacts")}
                     >
-                        Contact
+                        Contacts
                     </a>
                     </li>
             </ul>
