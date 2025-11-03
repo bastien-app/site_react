@@ -3,7 +3,7 @@ import reactLogo from '../assets/react.svg'
 import viteLogo from '/vite.svg'
 import Intro from './Intro';
 import Main from './MainLayout'; 
-import '../styles/layout.css'
+
 
 
 
