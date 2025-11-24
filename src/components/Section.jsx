@@ -3,7 +3,7 @@
 function Section({title, id, children})
 {
     return(
-        <section id={id} className="frutiger section">
+        <section id={id} className="section">
             <h2>{title}</h2>
             <div className="section-body">
                 {children}

@@ -1,12 +1,12 @@
 function Menu({active, onSelect})
 {
     return(
-        <nav aria-label="Menu principal" className="menu frutiger">
+        <nav aria-label="Menu principal" className="menu">
             <ul>
                 <li>
                     <a
                         href="#about"
-                        className = {`frutiger ${active === "about" ? "active" : ""}`}
+                        className = {`${active === "about" ? "active" : ""}`}
                         onClick={() => onSelect("about")}
                     >
                         À propos
@@ -16,7 +16,7 @@ function Menu({active, onSelect})
                 <li>
                     <a
                         href="#school"
-                        className={`frutiger ${active === "school frutiger" ? "active" : ""}`}
+                        className={`${active === "school" ? "active" : ""}`}
                         onClick={() => onSelect("school")}
                     >
                         La formation
@@ -26,7 +26,7 @@ function Menu({active, onSelect})
                 <li>
                     <a
                         href="#journey"
-                        className={`frutiger ${active === "journey frutiger" ? "active" : ""}`}
+                        className={`${active === "journey" ? "active" : ""}`}
                         onClick={() => onSelect("journey")}
                     
                     >
@@ -38,7 +38,7 @@ function Menu({active, onSelect})
                 <li>
                     <a
                         href="#skills"
-                        className={`frutiger ${active === "skills frutiger" ? "active" : ""}`}
+                        className={`${active === "skills" ? "active" : ""}`}
                         onClick={() => onSelect("skills")}
                     
                     >
@@ -49,7 +49,7 @@ function Menu({active, onSelect})
                 <li>
                     <a
                         href="#projects"
-                        className={`frutiger ${active === "projects frutiger" ? "active" : ""}`}
+                        className={`${active === "projects" ? "active" : ""}`}
                         onClick={() => onSelect("projects")}
                     
                     >
@@ -60,7 +60,7 @@ function Menu({active, onSelect})
                 <li>
                     <a
                         href="#contacts"
-                        className={`frutiger ${active === "contacts frutiger" ? "active" : ""}`}
+                        className={`${active === "contacts" ? "active" : ""}`}
                         onClick={() => onSelect("contacts")}
                     >
                         Contacts
